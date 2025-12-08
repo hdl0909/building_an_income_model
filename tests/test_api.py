@@ -7,6 +7,6 @@ first_row = test_df.iloc[0].where(
     pd.notnull(test_df.iloc[0]), None
 ).to_dict()
 
-response = requests.post("http://localhost:8000/predict", json=first_row)
+response = requests.post("http://localhost:8000/predict", json=first_row, proxies={"http": None, "https": None})
 
 print(response.json())
