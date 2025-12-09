@@ -1,0 +1,898 @@
+[
+    {
+        "column": "id",
+        "dtype": "int64"
+    },
+    {
+        "column": "dt",
+        "dtype": "object"
+    },
+    {
+        "column": "target",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_cr_avg_act_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "salary_6to12m_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_ils_paymentssum_avg_12m",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_cc_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "incomeValue",
+        "dtype": "float64"
+    },
+    {
+        "column": "gender",
+        "dtype": "object"
+    },
+    {
+        "column": "avg_cur_cr_turn",
+        "dtype": "float64"
+    },
+    {
+        "column": "adminarea",
+        "dtype": "object"
+    },
+    {
+        "column": "turn_cur_cr_avg_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_cr_max_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_pil_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "age",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_avg_salary_1y",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_cr_sum_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "by_category__amount__sum__eoperation_type_name__ishodjaschij_bystryj_platezh_sbp",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_db_sum_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_db_avg_act_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_avg_salary_2y",
+        "dtype": "float64"
+    },
+    {
+        "column": "curr_rur_amt_cm_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_db_avg_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "by_category__amount__sum__eoperation_type_name__vhodjaschij_bystryj_platezh_sbp",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_paymentssum_avg_6m",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_cur_db_turn",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_active_cc_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "incomeValueCategory",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__vydacha_nalichnyh_v_bankomate",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_credit_turn_rur",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_salary_ratio_1y3y",
+        "dtype": "float64"
+    },
+    {
+        "column": "by_category__amount__sum__eoperation_type_name__perevod_po_nomeru_telefona",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_cr_7avg_avg_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_accpayment_avg_12m",
+        "dtype": "float64"
+    },
+    {
+        "column": "curbal_usd_amt_cm_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__supermarkety",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_loan_cnt_with_insurance",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__gipermarkety",
+        "dtype": "float64"
+    },
+    {
+        "column": "city_smart_name",
+        "dtype": "object"
+    },
+    {
+        "column": "uniV5",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_db_max_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__kafe",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_other_db_max_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_cr_min_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_other_active_pil_outstanding",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_ewb_last_employment_position",
+        "dtype": "object"
+    },
+    {
+        "column": "turn_cur_db_min_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_products",
+        "dtype": "object"
+    },
+    {
+        "column": "per_capita_income_rur_amt",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_debet_turn_rur",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_relend_active_max_psk",
+        "dtype": "float64"
+    },
+    {
+        "column": "dda_rur_amt_curr_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "mob_cnt_days",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_days_from_last_doc",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_6m_money_transactions",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_supermarket_percent_cnt_2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "pil",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_max_overdue_sum",
+        "dtype": "object"
+    },
+    {
+        "column": "avg_6m_clothing",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__elektronnye_dengi",
+        "dtype": "float64"
+    },
+    {
+        "column": "addrref",
+        "dtype": "object"
+    },
+    {
+        "column": "bki_total_auto_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_payoutincomedata_payout_avg_3_month",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_outstand_sum",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_3m_money_transactions",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_address_unique_regions",
+        "dtype": "object"
+    },
+    {
+        "column": "min_balance_rur_amt_6m_af",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_supermarket_sum_cnt_m3_4",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_payoutincomedata_payout_max_3_month",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_ip_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "hdb_bki_total_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "blacklist_flag",
+        "dtype": "float64"
+    },
+    {
+        "column": "bki_total_oth_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_payoutincomedata_payout_sum_3_month",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_relend_outstand_sum",
+        "dtype": "float64"
+    },
+    {
+        "column": "total_rur_amt_cm_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "mob_cover_days",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_payoutincomedata_payout_max_6_month",
+        "dtype": "float64"
+    },
+    {
+        "column": "label_Below_50k_share_r1",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_fdep_db_sum_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_accpayment_avg_6m_current",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_cash_percent_amt_2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "curr_rur_amt_3m_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_restaurants_sum_amt_m2",
+        "dtype": "float64"
+    },
+    {
+        "column": "loan_cnt",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_fdep_db_avg_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_cur_db_7avg_avg_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "bki_total_ip_max_outstand",
+        "dtype": "object"
+    },
+    {
+        "column": "amount_by_category_90d__summarur_amt__sum__cashflowcategory_name__vydacha_nalichnyh_v_bankomate",
+        "dtype": "float64"
+    },
+    {
+        "column": "profit_income_out_rur_amt_12m",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_6m_hotels",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_ovrd_sum",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_total_seniority",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_paymentssum_avg_6m_current",
+        "dtype": "float64"
+    },
+    {
+        "column": "smsInWavg6m",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_fdep_db_turn",
+        "dtype": "float64"
+    },
+    {
+        "column": "device_iphone_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "by_category__amount__sum__eoperation_type_name__platezh_za_mobilnyj_cherez_ps",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_balance_rur_amt_1m_af",
+        "dtype": "float64"
+    },
+    {
+        "column": "curr_rur_amt_cm_avg_period_days_ago_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__oteli",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_ip_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "hdb_bki_active_cc_max_outstand",
+        "dtype": "object"
+    },
+    {
+        "column": "hdb_other_outstand_sum",
+        "dtype": "float64"
+    },
+    {
+        "column": "days_to_last_transaction",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_pil_max_overdue",
+        "dtype": "object"
+    },
+    {
+        "column": "vert_pil_last_credit_step_screen_view_3m",
+        "dtype": "float64"
+    },
+    {
+        "column": "acard",
+        "dtype": "float64"
+    },
+    {
+        "column": "bki_total_il_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "other_credits_count",
+        "dtype": "float64"
+    },
+    {
+        "column": "tz_msk_timedelta",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_save_db_min_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "profit_income_out_rur_amt_9m",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_ipkcurrentyear_currentyearpensfactor",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__odezhda",
+        "dtype": "float64"
+    },
+    {
+        "column": "cntOnnRinCallAvg6m",
+        "dtype": "float64"
+    },
+    {
+        "column": "dda_rur_amt_3m_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "winback_cnt",
+        "dtype": "float64"
+    },
+    {
+        "column": "salary_median_in_gex_r1",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_payoutincomedata_payout_avg_prev_year",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_amount_daily_transactions_90d",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_has_app_ru_tinkoff_investing",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_supermarket_inc_cnt_2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_pil_sms_success_3m",
+        "dtype": "float64"
+    },
+    {
+        "column": "min_balance_rur_amt_1m_af",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_max_seniority",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__set_supermarketov",
+        "dtype": "float64"
+    },
+    {
+        "column": "label_500k_to_1M_share_r1",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__zarubezhnye_finansovye_operatsii",
+        "dtype": "float64"
+    },
+    {
+        "column": "bki_total_products",
+        "dtype": "object"
+    },
+    {
+        "column": "avg_6m_all",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_avg_simultanious_jobs_5y",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ewb_dismissal_due_contract_violation_by_lb_cnt",
+        "dtype": "float64"
+    },
+    {
+        "column": "summarur_1m_purch",
+        "dtype": "float64"
+    },
+    {
+        "column": "diff_avg_cr_db_turn",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_cnt_changes_1y",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_employeers_cnt_last_month",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_payoutincomedata_payout_avg_6_month",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ewb_last_organization",
+        "dtype": "float64"
+    },
+    {
+        "column": "by_category__amount__sum__eoperation_type_name__perevod_mezhdu_svoimi_schetami",
+        "dtype": "float64"
+    },
+    {
+        "column": "bki_active_auto_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "turn_other_cr_avg_act_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "cntVoiceOutMob6m",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__puteshestvija",
+        "dtype": "float64"
+    },
+    {
+        "column": "loanacc_rur_amt_cm_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_supermarket_sum_cnt_m2",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_supermarket_sum_amt_d15",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_fdep_cr_turn",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_restaurants_percent_cnt_2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "bki_total_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__reklama_v_internete",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_restaurants_percent_amt_2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_fdep_db_avg_act_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_accpayment_avg_6m",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_other_cr_sum_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "client_active_flag",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__produkty",
+        "dtype": "float64"
+    },
+    {
+        "column": "curr_rur_amt_cm_avg_inc_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "nonresident_flag",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__kosmetika",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_has_app_ru_vtb_invest",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_avg_salary_3y",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_auto_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "days_after_last_request",
+        "dtype": "float64"
+    },
+    {
+        "column": "cntRegionTripsWavg1m",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_has_app_ru_cian_main",
+        "dtype": "float64"
+    },
+    {
+        "column": "loanacc_rur_amt_curr_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_3m_no_cat",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_ghost_close_dpay3_last_days",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_has_app_ru_raiffeisennews",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_days_ip_share_5y",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_by_category__amount__sum__cashflowcategory_name__platezhi_cherez_internet",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_micro_max_overdue",
+        "dtype": "object"
+    },
+    {
+        "column": "bki_total_active_products",
+        "dtype": "object"
+    },
+    {
+        "column": "by_category__amount__sum__eoperation_type_name__perevod_s_karty_na_kartu",
+        "dtype": "float64"
+    },
+    {
+        "column": "calledCtnOutGroup",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_pil_loan_application_success_3m",
+        "dtype": "float64"
+    },
+    {
+        "column": "vert_pil_fee_discount_change_3m",
+        "dtype": "float64"
+    },
+    {
+        "column": "businessTelSubs",
+        "dtype": "float64"
+    },
+    {
+        "column": "profit_income_out_rur_amt_l2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_3m_healthcare_services",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_paymentssum_month_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "ovrd_sum",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_active_products",
+        "dtype": "object"
+    },
+    {
+        "column": "hdb_bki_total_micro_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "hdb_bki_active_pil_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "loan_cur_amt",
+        "dtype": "float64"
+    },
+    {
+        "column": "mob_total_sessions",
+        "dtype": "float64"
+    },
+    {
+        "column": "period_last_act_ad",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_ils_days_multiple_job_share_2y",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_cc_max_overdue",
+        "dtype": "object"
+    },
+    {
+        "column": "lifetimeComp",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_pil_last_days",
+        "dtype": "object"
+    },
+    {
+        "column": "amount_by_category_90d__summarur_amt__sum__cashflowcategory_name__elektronnye_dengi",
+        "dtype": "float64"
+    },
+    {
+        "column": "turn_save_cr_max_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_active_pil_max_limit",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_ils_accpayment_avg_3m",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_6m_restaurants",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_pil_cnt",
+        "dtype": "object"
+    },
+    {
+        "column": "transaction_category_fastfood_percent_cnt_2m",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_total_pil_max_del90",
+        "dtype": "object"
+    },
+    {
+        "column": "accountsalary_out_flag",
+        "dtype": "float64"
+    },
+    {
+        "column": "cntBlockWavg6m",
+        "dtype": "float64"
+    },
+    {
+        "column": "express_rur_amt_cm_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "loanacc_rur_amt_cm_avg_inc_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_last_product_days",
+        "dtype": "object"
+    },
+    {
+        "column": "dp_ils_days_multiple_job_cnt_5y",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_accpayment_month_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "cred_dda_rur_amt_3m_avg",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_3m_all",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_other_active_max_psk",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_other_active_ip_outstanding",
+        "dtype": "object"
+    },
+    {
+        "column": "total_sum",
+        "dtype": "float64"
+    },
+    {
+        "column": "dp_ils_uniq_companies_1y",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_6m_travel",
+        "dtype": "float64"
+    },
+    {
+        "column": "avg_6m_government_services",
+        "dtype": "float64"
+    },
+    {
+        "column": "hdb_bki_active_cc_max_overdue",
+        "dtype": "object"
+    },
+    {
+        "column": "total_rur_amt_cm_avg_period_days_ago_v2",
+        "dtype": "float64"
+    },
+    {
+        "column": "label_Above_1M_share_r1",
+        "dtype": "float64"
+    },
+    {
+        "column": "transaction_category_supermarket_sum_cnt_d15",
+        "dtype": "float64"
+    },
+    {
+        "column": "max_balance_rur_amt_1m_af",
+        "dtype": "float64"
+    },
+    {
+        "column": "w",
+        "dtype": "float64"
+    },
+    {
+        "column": "first_salary_income",
+        "dtype": "float64"
+    }
+]
