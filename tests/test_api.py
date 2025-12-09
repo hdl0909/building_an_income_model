@@ -8,5 +8,8 @@ first_row = test_df.iloc[0].where(
 ).to_dict()
 
 response = requests.post("http://localhost:8000/predict", json=first_row, proxies={"http": None, "https": None})
+res = response.json()
 
-print(response.json())
+print("Prediction:", res["prediction"])
+print("SHAP values:", res["shap_values"])
+print("Feature names:", res["feature_names"])

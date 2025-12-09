@@ -230,3 +230,5 @@ class InputData(BaseModel):
     
 class OutputData(BaseModel):
     prediction: float
+    shap_values: list[float]
+    feature_names: list[str]
